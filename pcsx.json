@@ -1,0 +1,274 @@
+{
+  "SPU": {
+    "Backend": "Default",
+    "DBufIRQ": true,
+    "Device": "Default",
+    "IRQWait": true,
+    "Interp": 2,
+    "Mono": false,
+    "Mute": false,
+    "Reverb": 2,
+    "Streaming": true,
+    "UseNullSync": false,
+    "Volume": 3
+  },
+  "emulator": {
+    "8Megs": false,
+    "AutoUpdate": true,
+    "AutoVideo": true,
+    "Bios": "E:\\Programming\\PS1\\bios\\SCPH1001.BIN",
+    "BnWMdec": false,
+    "Debug": {
+      "Debug": false,
+      "FirstChanceException": 7408,
+      "GdbLog": 1,
+      "GdbManifest": true,
+      "GdbServer": false,
+      "GdbServerPort": 3333,
+      "GdbServerTrace": false,
+      "KernelCallA0_00_1f": 4294967295,
+      "KernelCallA0_20_3f": 4294967295,
+      "KernelCallA0_40_5f": 4294967295,
+      "KernelCallA0_60_7f": 4294967295,
+      "KernelCallA0_80_9f": 4294967295,
+      "KernelCallA0_a0_bf": 4294967295,
+      "KernelCallB0_00_1f": 4294967295,
+      "KernelCallB0_20_3f": 4294967295,
+      "KernelCallB0_40_5f": 4294967295,
+      "KernelCallC0_00_1f": 4294967295,
+      "KernelLog": false,
+      "LoggingCDROM": false,
+      "PCdrv": false,
+      "PCdrvBase": "",
+      "SIO1Client": false,
+      "SIO1ClientPort": 6699,
+      "SIO1Clienthost": "",
+      "SIO1Mode": 0,
+      "SIO1Server": false,
+      "SIO1ServerPort": 6699,
+      "SkipISR": false,
+      "Trace": false,
+      "WebServer": false,
+      "WebServerPort": 8080
+    },
+    "Dither": 0,
+    "Dynarec": true,
+    "FastBoot": true,
+    "FullCaching": false,
+    "GUITheme": 0,
+    "IsoPath": "",
+    "Locale": "",
+    "Logfile": "",
+    "Mcd1": "memcard1.mcd",
+    "Mcd1Inserted": true,
+    "Mcd2": "memcard2.mcd",
+    "Mcd2Inserted": true,
+    "PpfDir": "",
+    "PsxExe": "",
+    "RCntFix": false,
+    "ReportGLErrors": false,
+    "Scaler": 100,
+    "ShownAutoUpdateConfig": true,
+    "SpuIrq": false,
+    "Stdout": false,
+    "Video": 1,
+    "Xa": true
+  },
+  "gui": {
+    "Fullscreen": false,
+    "FullscreenRender": true,
+    "GUITheme": 0,
+    "IdleSwapInterval": 1,
+    "MainFontSize": 16,
+    "MonoFontSize": 16,
+    "RawMouseMotion": false,
+    "ShowAssembly": false,
+    "ShowBreakpoints": false,
+    "ShowCLUTVRAMViewer": false,
+    "ShowCallstacks": false,
+    "ShowDisassembly": false,
+    "ShowEvents": false,
+    "ShowKernelLog": false,
+    "ShowLog": false,
+    "ShowLuaConsole": false,
+    "ShowLuaEditor": false,
+    "ShowLuaInspector": false,
+    "ShowMainVRAMViewer": false,
+    "ShowMemcardManager": false,
+    "ShowMemoryObserver": false,
+    "ShowMenu": true,
+    "ShowRegisters": false,
+    "ShowSIO1": false,
+    "ShowVRAMViewer1": false,
+    "ShowVRAMViewer2": false,
+    "ShowVRAMViewer3": false,
+    "ShowVRAMViewer4": false,
+    "WindowPosX": 405,
+    "WindowPosY": 109,
+    "WindowSizeX": 1280,
+    "WindowSizeY": 800
+  },
+  "imgui": "[Window][Debug##Default]\nPos=60,60\nSize=400,400\nCollapsed=0\n\n[Window][Update configuration]\nViewportPos=10,20\nViewportId=0x8C93FDF7\nSize=389,272\nCollapsed=0\n\n[Window][Pad configuration]\nViewportPos=70,90\nViewportId=0xBB61AA2F\nSize=594,776\nCollapsed=0\n\n[Window][Logs]\nViewportPos=10,540\nViewportId=0x50BD6962\nSize=1200,425\nCollapsed=0\n\n[Window][Emulation Configuration]\nViewportPos=52,30\nViewportId=0xA515CB4B\nSize=557,709\nCollapsed=0\n\n[Window][Select BIOS]\nPos=254,166\nSize=774,468\nCollapsed=0\n\n[Window][Update available]\nViewportPos=10,20\nViewportId=0x14E7B468\nSize=301,138\nCollapsed=0\n\n[Window][Soft GPU configuration]\nViewportPos=60,60\nViewportId=0xD572FBE2\nSize=300,200\nCollapsed=0\n\n[Window][System Configuration]\nViewportPos=10,20\nViewportId=0xCE39F60F\nSize=1024,512\nCollapsed=0\n\n[Window][Memory Card Manager]\nViewportPos=600,600\nViewportId=0x5860665B\nSize=400,400\nCollapsed=0\n\n[Window][Offscreen Render]\nViewportPos=10,20\nViewportId=0xAF9C77AE\nSize=1024,512\nCollapsed=0\n\n[Window][SPU Debug]\nViewportPos=20,40\nViewportId=0xE5F7C643\nSize=1200,430\nCollapsed=0\n\n[Window][Registers]\nViewportPos=1082,56\nViewportId=0x837A6095\nSize=612,791\nCollapsed=0\n\n[Window][Main VRAM Viewer]\nPos=108,175\nSize=1024,512\nCollapsed=0\n\n[Window][VRAM Shader Editor]\nPos=60,60\nSize=387,102\nCollapsed=0\n\n[Window][Dear ImGui Demo]\nPos=552,57\nSize=550,680\nCollapsed=0\n\n[Window][Dear ImGui Style Editor]\nViewportPos=465,169\nViewportId=0x6D551092\nSize=342,1022\nCollapsed=0\n\n[Table][0xA1768E59,6]\nColumn 0  Weight=1.7977\nColumn 1  Weight=0.5603\nColumn 2  Weight=1.3307\nColumn 3  Weight=0.3035\nColumn 4  Weight=1.1907\nColumn 5  Weight=0.8171\n\n[Docking][Data]\n\n",
+  "loggers": {
+    "CDROM": {
+      "displayed": true,
+      "enabled": true
+    },
+    "CDROM_IO": {
+      "displayed": true,
+      "enabled": true
+    },
+    "CPU": {
+      "displayed": true,
+      "enabled": true
+    },
+    "DMA": {
+      "displayed": true,
+      "enabled": true
+    },
+    "GDB": {
+      "displayed": true,
+      "enabled": true
+    },
+    "GTE": {
+      "displayed": true,
+      "enabled": true
+    },
+    "HARDWARE": {
+      "displayed": true,
+      "enabled": true
+    },
+    "IRQ": {
+      "displayed": true,
+      "enabled": true
+    },
+    "KERNEL": {
+      "displayed": true,
+      "enabled": true
+    },
+    "LUA": {
+      "displayed": true,
+      "enabled": true
+    },
+    "MEMORY": {
+      "displayed": true,
+      "enabled": true
+    },
+    "MIPS": {
+      "displayed": true,
+      "enabled": true
+    },
+    "SIO0": {
+      "displayed": true,
+      "enabled": true
+    },
+    "SIO1": {
+      "displayed": true,
+      "enabled": true
+    },
+    "SIO1SERVER": {
+      "displayed": true,
+      "enabled": true
+    },
+    "SPU": {
+      "displayed": true,
+      "enabled": true
+    },
+    "SYSTEM": {
+      "displayed": true,
+      "enabled": true
+    },
+    "UI": {
+      "displayed": true,
+      "enabled": true
+    },
+    "UNCATEGORIZED": {
+      "displayed": true,
+      "enabled": true
+    }
+  },
+  "pads": [
+    {
+      "Connected": true,
+      "Controller_PadCircle": 1,
+      "Controller_PadCross": 0,
+      "Controller_PadDown": 13,
+      "Controller_PadL1": 4,
+      "Controller_PadL2": 15,
+      "Controller_PadL3": 9,
+      "Controller_PadLeft": 14,
+      "Controller_PadR1": 5,
+      "Controller_PadR2": 16,
+      "Controller_PadR3": 10,
+      "Controller_PadRight": 12,
+      "Controller_PadSelect": 6,
+      "Controller_PadSquare": 2,
+      "Controller_PadSstart": 7,
+      "Controller_PadTriangle": 3,
+      "Controller_PadUp": 11,
+      "DeviceType": 1,
+      "ID": 0,
+      "Keyboard_AnalogMode": 46,
+      "Keyboard_PadCircle": 68,
+      "Keyboard_PadCross": 88,
+      "Keyboard_PadDown": 264,
+      "Keyboard_PadL1": 81,
+      "Keyboard_PadL2": 65,
+      "Keyboard_PadL3": 87,
+      "Keyboard_PadLeft": 263,
+      "Keyboard_PadR1": 82,
+      "Keyboard_PadR2": 70,
+      "Keyboard_PadR3": 84,
+      "Keyboard_PadRight": 262,
+      "Keyboard_PadSelect": 259,
+      "Keyboard_PadSquare": 90,
+      "Keyboard_PadSstart": 257,
+      "Keyboard_PadTriangle": 83,
+      "Keyboard_PadUp": 265,
+      "MouseSensitivityX": 0.5,
+      "MouseSensitivityY": 0.5,
+      "PadType": 0
+    },
+    {
+      "Connected": false,
+      "Controller_PadCircle": 1,
+      "Controller_PadCross": 0,
+      "Controller_PadDown": 13,
+      "Controller_PadL1": 4,
+      "Controller_PadL2": 15,
+      "Controller_PadL3": 9,
+      "Controller_PadLeft": 14,
+      "Controller_PadR1": 5,
+      "Controller_PadR2": 16,
+      "Controller_PadR3": 10,
+      "Controller_PadRight": 12,
+      "Controller_PadSelect": 6,
+      "Controller_PadSquare": 2,
+      "Controller_PadSstart": 7,
+      "Controller_PadTriangle": 3,
+      "Controller_PadUp": 11,
+      "DeviceType": 0,
+      "ID": 0,
+      "Keyboard_AnalogMode": -1,
+      "Keyboard_PadCircle": 68,
+      "Keyboard_PadCross": 88,
+      "Keyboard_PadDown": 264,
+      "Keyboard_PadL1": 81,
+      "Keyboard_PadL2": 65,
+      "Keyboard_PadL3": 87,
+      "Keyboard_PadLeft": 263,
+      "Keyboard_PadR1": 82,
+      "Keyboard_PadR2": 70,
+      "Keyboard_PadR3": 84,
+      "Keyboard_PadRight": 262,
+      "Keyboard_PadSelect": 259,
+      "Keyboard_PadSquare": 90,
+      "Keyboard_PadSstart": 257,
+      "Keyboard_PadTriangle": 83,
+      "Keyboard_PadUp": 265,
+      "MouseSensitivityX": 0.5,
+      "MouseSensitivityY": 0.5,
+      "PadType": 0
+    }
+  ]
+}

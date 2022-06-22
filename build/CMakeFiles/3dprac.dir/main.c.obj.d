@@ -1,0 +1,21 @@
+CMakeFiles/3dprac.dir/main.c.obj: \
+ E:\Programming\PS1\Projects\3D_practice\main.c \
+ E:\Programming\PS1\Projects\3D_practice\core.h \
+ c:\psn00bsdk\include\libpsn00b\sys\types.h \
+ c:\psn00bsdk\include\libpsn00b\inline_c.h \
+ c:\psn00bsdk\include\libpsn00b\stdio.h \
+ c:\users\stankydanky\appdata\roaming\mips\mips\lib\gcc\mipsel-none-elf\11.2.0\include\stdarg.h \
+ c:\psn00bsdk\include\libpsn00b\stdlib.h \
+ c:\psn00bsdk\include\libpsn00b\string.h \
+ c:\psn00bsdk\include\libpsn00b\psxetc.h \
+ c:\psn00bsdk\include\libpsn00b\psxgte.h \
+ c:\psn00bsdk\include\libpsn00b\psxgpu.h \
+ c:\psn00bsdk\include\libpsn00b\psxapi.h \
+ c:\psn00bsdk\include\libpsn00b\psxpad.h \
+ c:\users\stankydanky\appdata\roaming\mips\mips\lib\gcc\mipsel-none-elf\11.2.0\include\stdint.h \
+ c:\users\stankydanky\appdata\roaming\mips\mips\lib\gcc\mipsel-none-elf\11.2.0\include\stdint-gcc.h \
+ c:\psn00bsdk\include\libpsn00b\psxsio.h \
+ c:\psn00bsdk\include\libpsn00b\psxspu.h \
+ c:\psn00bsdk\include\libpsn00b\psxcd.h \
+ E:\Programming\PS1\Projects\3D_practice\controller.h \
+ E:\Programming\PS1\Projects\3D_practice\clip.h

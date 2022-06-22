@@ -1,0 +1,285 @@
+The target system is: PlayStation -  - mipsel
+The host system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/StankyDanky/AppData/Roaming/mips/mips/bin/mipsel-none-elf-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400060
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/3.23.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/StankyDanky/AppData/Roaming/mips/mips/bin/mipsel-none-elf-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+mipsel-none-elf-gcc.exe (GCC) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0c54b/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0c54b.dir\build.make CMakeFiles/cmTC_0c54b.dir/build
+mingw32-make[1]: Entering directory 'E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c54b.dir/CMakeCCompilerABI.c.obj
+C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-gcc.exe   -v -o CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-gcc.exe
+Target: mipsel-none-elf
+Configured with: ../configure --target=mipsel-none-elf --without-isl --disable-nls --disable-threads --disable-shared --disable-libssp --disable-libstdcxx-pch --disable-libgomp --disable-werror --without-headers --with-as=/DIST/bin/mipsel-none-elf-as --with-ld=/DIST/bin/mipsel-none-elf-ld --enable-languages=c,c++ --prefix=/DIST
+Thread model: single
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_0c54b.dir\'
+ c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/mipsel-none-elf/11.2.0/cc1.exe -quiet -v -iprefix c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/ C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_0c54b.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o C:\Users\STANKY~1\AppData\Local\Temp\cc4sauNz.s
+GNU C17 (GCC) version 11.2.0 (mipsel-none-elf)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/sys-include"
+ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include"
+ignoring duplicate directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/include"
+ignoring duplicate directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/include-fixed"
+ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/sys-include"
+ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/include
+ c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/include-fixed
+End of search list.
+GNU C17 (GCC) version 11.2.0 (mipsel-none-elf)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a8a1fad495fae4e7ca85ab9ca1422da1
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_0c54b.dir\'
+ c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -O1 -mabi=32 -o CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj C:\Users\STANKY~1\AppData\Local\Temp\cc4sauNz.s
+GNU assembler version 2.37 (mipsel-none-elf) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/mipsel-none-elf/11.2.0/;c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/;c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/
+LIBRARY_PATH=c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/;c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/;c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.'
+Linking C static library libcmTC_0c54b.a
+"C:\Program Files\CMake\bin\cmake.exe" -P CMakeFiles\cmTC_0c54b.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0c54b.dir\link.txt --verbose=1
+C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-ar.exe qc libcmTC_0c54b.a CMakeFiles/cmTC_0c54b.dir/CMakeCCompilerABI.c.obj
+C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-ranlib.exe libcmTC_0c54b.a
+mingw32-make[1]: Leaving directory 'E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/include]
+    add: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/include-fixed]
+  end of search list found
+  collapse include dir [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/include] ==> [C:/Users/StankyDanky/AppData/Roaming/mips/mips/lib/gcc/mipsel-none-elf/11.2.0/include]
+  collapse include dir [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/include-fixed] ==> [C:/Users/StankyDanky/AppData/Roaming/mips/mips/lib/gcc/mipsel-none-elf/11.2.0/include-fixed]
+  implicit include dirs: [C:/Users/StankyDanky/AppData/Roaming/mips/mips/lib/gcc/mipsel-none-elf/11.2.0/include;C:/Users/StankyDanky/AppData/Roaming/mips/mips/lib/gcc/mipsel-none-elf/11.2.0/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-none-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0c54b/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0c54b.dir\build.make CMakeFiles/cmTC_0c54b.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0c54b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-gcc.exe   -v -o CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-gcc.exe]
+  ignore line: [Target: mipsel-none-elf]
+  ignore line: [Configured with: ../configure --target=mipsel-none-elf --without-isl --disable-nls --disable-threads --disable-shared --disable-libssp --disable-libstdcxx-pch --disable-libgomp --disable-werror --without-headers --with-as=/DIST/bin/mipsel-none-elf-as --with-ld=/DIST/bin/mipsel-none-elf-ld --enable-languages=c,c++ --prefix=/DIST]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_0c54b.dir\']
+  ignore line: [ c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/mipsel-none-elf/11.2.0/cc1.exe -quiet -v -iprefix c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/ C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_0c54b.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o C:\Users\STANKY~1\AppData\Local\Temp\cc4sauNz.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (mipsel-none-elf)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include"]
+  ignore line: [ignoring duplicate directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/include]
+  ignore line: [ c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (mipsel-none-elf)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a8a1fad495fae4e7ca85ab9ca1422da1]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_0c54b.dir\']
+  ignore line: [ c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -O1 -mabi=32 -o CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj C:\Users\STANKY~1\AppData\Local\Temp\cc4sauNz.s]
+  ignore line: [GNU assembler version 2.37 (mipsel-none-elf) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/mipsel-none-elf/11.2.0/]
+  ignore line: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/]
+  ignore line: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/]
+  ignore line: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/]
+  ignore line: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_0c54b.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C static library libcmTC_0c54b.a]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -P CMakeFiles\cmTC_0c54b.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0c54b.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-ar.exe qc libcmTC_0c54b.a CMakeFiles/cmTC_0c54b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-ranlib.exe libcmTC_0c54b.a]
+  ignore line: [mingw32-make[1]: Leaving directory 'E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_edefd/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_edefd.dir\build.make CMakeFiles/cmTC_edefd.dir/build
+mingw32-make[1]: Entering directory 'E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_edefd.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-g++.exe   -v -o CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-g++.exe
+Target: mipsel-none-elf
+Configured with: ../configure --target=mipsel-none-elf --without-isl --disable-nls --disable-threads --disable-shared --disable-libssp --disable-libstdcxx-pch --disable-libgomp --disable-werror --without-headers --with-as=/DIST/bin/mipsel-none-elf-as --with-ld=/DIST/bin/mipsel-none-elf-ld --enable-languages=c,c++ --prefix=/DIST
+Thread model: single
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_edefd.dir\'
+ c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/mipsel-none-elf/11.2.0/cc1plus.exe -quiet -v -iprefix c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/ C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_edefd.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -version -o C:\Users\STANKY~1\AppData\Local\Temp\ccUZuDJb.s
+GNU C++17 (GCC) version 11.2.0 (mipsel-none-elf)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0"
+ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0/mipsel-none-elf"
+ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0/backward"
+ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/sys-include"
+ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include"
+ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0"
+ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0/mipsel-none-elf"
+ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0/backward"
+ignoring duplicate directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/include"
+ignoring duplicate directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/include-fixed"
+ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/sys-include"
+ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/include
+ c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/include-fixed
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (mipsel-none-elf)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4625cd4d77c0ad25ac810e50e932e477
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_edefd.dir\'
+ c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -O1 -mabi=32 -o CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\STANKY~1\AppData\Local\Temp\ccUZuDJb.s
+GNU assembler version 2.37 (mipsel-none-elf) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/mipsel-none-elf/11.2.0/;c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/;c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/
+LIBRARY_PATH=c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/;c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/;c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX static library libcmTC_edefd.a
+"C:\Program Files\CMake\bin\cmake.exe" -P CMakeFiles\cmTC_edefd.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_edefd.dir\link.txt --verbose=1
+C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-ar.exe qc libcmTC_edefd.a CMakeFiles/cmTC_edefd.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-ranlib.exe libcmTC_edefd.a
+mingw32-make[1]: Leaving directory 'E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/include]
+    add: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/include-fixed]
+  end of search list found
+  collapse include dir [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/include] ==> [C:/Users/StankyDanky/AppData/Roaming/mips/mips/lib/gcc/mipsel-none-elf/11.2.0/include]
+  collapse include dir [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/include-fixed] ==> [C:/Users/StankyDanky/AppData/Roaming/mips/mips/lib/gcc/mipsel-none-elf/11.2.0/include-fixed]
+  implicit include dirs: [C:/Users/StankyDanky/AppData/Roaming/mips/mips/lib/gcc/mipsel-none-elf/11.2.0/include;C:/Users/StankyDanky/AppData/Roaming/mips/mips/lib/gcc/mipsel-none-elf/11.2.0/include-fixed]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-none-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_edefd/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_edefd.dir\build.make CMakeFiles/cmTC_edefd.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_edefd.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-g++.exe   -v -o CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-g++.exe]
+  ignore line: [Target: mipsel-none-elf]
+  ignore line: [Configured with: ../configure --target=mipsel-none-elf --without-isl --disable-nls --disable-threads --disable-shared --disable-libssp --disable-libstdcxx-pch --disable-libgomp --disable-werror --without-headers --with-as=/DIST/bin/mipsel-none-elf-as --with-ld=/DIST/bin/mipsel-none-elf-ld --enable-languages=c,c++ --prefix=/DIST]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_edefd.dir\']
+  ignore line: [ c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/mipsel-none-elf/11.2.0/cc1plus.exe -quiet -v -iprefix c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/ C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_edefd.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -version -o C:\Users\STANKY~1\AppData\Local\Temp\ccUZuDJb.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (mipsel-none-elf)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0"]
+  ignore line: [ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0/mipsel-none-elf"]
+  ignore line: [ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0/backward"]
+  ignore line: [ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include"]
+  ignore line: [ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0"]
+  ignore line: [ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0/mipsel-none-elf"]
+  ignore line: [ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include/c++/11.2.0/backward"]
+  ignore line: [ignoring duplicate directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "c:/users/stankydanky/appdata/roaming/mips/mips/lib/gcc/../../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/include]
+  ignore line: [ c:\users\stankydanky\appdata\roaming\mips\mips\bin\../lib/gcc/mipsel-none-elf/11.2.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (mipsel-none-elf)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4625cd4d77c0ad25ac810e50e932e477]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_edefd.dir\']
+  ignore line: [ c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -O1 -mabi=32 -o CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\STANKY~1\AppData\Local\Temp\ccUZuDJb.s]
+  ignore line: [GNU assembler version 2.37 (mipsel-none-elf) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/mipsel-none-elf/11.2.0/]
+  ignore line: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../libexec/gcc/]
+  ignore line: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/]
+  ignore line: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/]
+  ignore line: [c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles\cmTC_edefd.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX static library libcmTC_edefd.a]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -P CMakeFiles\cmTC_edefd.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_edefd.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-ar.exe qc libcmTC_edefd.a CMakeFiles/cmTC_edefd.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\StankyDanky\AppData\Roaming\mips\mips\bin\mipsel-none-elf-ranlib.exe libcmTC_edefd.a]
+  ignore line: [mingw32-make[1]: Leaving directory 'E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

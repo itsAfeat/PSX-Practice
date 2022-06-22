@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	This file is processed by CMake and used by mkpsxiso to build the CD image.
+
+	NOTE: all paths are relative to the build directory; if you want to include
+	a file from the source tree, you'll have to prepend its path with
+	E:/Programming/PS1/Projects/3D_practice.
+-->
+<iso_project
+	image_name="3dprac.bin"
+	cue_sheet="3dprac.cue"
+>
+	<track type="data">
+		<identifiers
+			system			="PLAYSTATION"
+			volume			="PSN00BSDK_3DPRAC"
+			volume_set		="PSN00BSDK_3DPRAC"
+			publisher		="BREMSESPOR"
+			data_preparer	="PSN00BSDK 0.19"
+			application		="PLAYSTATION"
+			copyright		="README.TXT;1"
+		/>
+
+		<license file="LICENSEE.DAT"/>
+
+		<directory_tree>
+			<file name="SYSTEM.CNF" type="data" source="E:/Programming/PS1/Projects/3D_practice/system.cnf" />
+			<file name="3DPRAC.EXE"	type="data" source="E:/Programming/PS1/Projects/3D_practice/build/3dprac.exe" />
+			<file name="3DPRAC.MAP"	type="data" source="E:/Programming/PS1/Projects/3D_practice/build/3dprac.map" />
+			<file name="ENGINE.VAG" type="data" source="E:/Programming/PS1/Projects/3D_practice/sounds/ENGINE.VAG" />
+			<file name="JUGPOT.XA"	type="xa" 	source="E:/Programming/PS1/Projects/3D_practice/music/JUGPOT.XA" />
+			<dummy sectors="1024"/>
+		</directory_tree>
+	</track>
+
+	<!--<track type="audio" source="track2.wav" />-->
+</iso_project>

@@ -1,0 +1,4 @@
+E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/3dprac.dir
+E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/iso.dir
+E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/edit_cache.dir
+E:/Programming/PS1/Projects/3D_practice/build/CMakeFiles/rebuild_cache.dir

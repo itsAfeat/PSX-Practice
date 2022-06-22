@@ -1,0 +1,12 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Users/StankyDanky/AppData/Roaming/mips/mips/bin/mipsel-none-elf-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/ld.exe: cannot find -lstdc++
+c:/users/stankydanky/appdata/roaming/mips/mips/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/ld.exe: cannot find -lm
+collect2.exe: error: ld returned 1 exit status
+
+
